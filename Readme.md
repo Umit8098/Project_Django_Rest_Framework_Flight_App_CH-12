@@ -1874,7 +1874,7 @@ flight/views.py
 rm -rf klkf.txt
 ```
 
-- github taki deploy edeceğimiz reponun url ini kopyalıyoruz (clonelar gibi)
+- github taki deploye edeceğimiz reponun url ini kopyalıyoruz (clonelar gibi)
 - pythonanywhere deki bash terminale;
 
 ```bash
