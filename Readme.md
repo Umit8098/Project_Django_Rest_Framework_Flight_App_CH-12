@@ -1980,17 +1980,34 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'main.settings'
     - ENV_NAME=dev  (prod ayarlarımızda db olarak postgresql var. bizim dev ayarlarını kullanmamız daha iyi. Ayrıca dev ayarlarını kullanırken de debug.toolbar sadece localhost ta çalışıyor. Bu yüzden debug.toolbar ayarları ile development çalıştırılırsa hata verecektir. Bu hatayı almamak için debug.toolbar ayarlarını yoruma alıyoruz.)
     - Bir de DJANGO_LOG_LEVEL=INFO ayarımız vardı onu da .env file ımıza ekliyoruz.
 
+settings/dev.py
 ```py
-# THIRD_PARTY_APPS = ["debug_toolbar"] 
-DEBUG = config("DEBUG") 
-# INSTALLED_APPS += THIRD_PARTY_APPS 
-# THIRD_PARTY_MIDDLEWARE = ["debug_toolbar.middleware.DebugToolbarMiddleware"] 
-# MIDDLEWARE += THIRD_PARTY_MIDDLEWARE 
+from .base import *
 
-# INTERNAL_IPS = [ 
-#     "127.0.0.1", 
+# THIRD_PARTY_APPS = ["debug_toolbar"]
+
+DEBUG = config("DEBUG")
+
+# INSTALLED_APPS += THIRD_PARTY_APPS
+
+# THIRD_PARTY_MIDDLEWARE = ["debug_toolbar.middleware.DebugToolbarMiddleware"]
+
+# MIDDLEWARE += THIRD_PARTY_MIDDLEWARE
+
+# Database
+# https://docs.djangoproject.com/en/4.0/ref/settings/#databases
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
+    }
+}
+
+# INTERNAL_IPS = [
+#     "127.0.0.1",
 # ]
 ```
+
 
 - .env dosyamızın en son hali -> 
 
