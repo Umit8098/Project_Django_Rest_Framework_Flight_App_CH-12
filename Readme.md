@@ -1977,7 +1977,8 @@ os.environ['DJANGO_SETTINGS_MODULE'] = 'main.settings'
     - SECRET_KEY tanımladık, 
     - DEBUG=True  (Önce True yazıyoruz, hataları görebilmek için. daha sonra False a çekebiliriz.)
     - settings klasörünün __init__.py daki env değişkeninin ismine ne verdiysek onu alıp .env file ında değişken ismi olarak kullanıyoruz. ENV_NAME
-    - ENV_NAME=dev  (prod ayarlarımızda db olarak postgresql var. bizim dev ayarlarını kullanmamız daha iyi. Ayrıca dev ayarlarını kullanırken de debug.toolbar sadece localhost ta çalışıyor. Bu yüzden debug.toolbar ayarları ile development çalıştırılırsa hata verecektir. Bu hatayı almamak için debug.toolbar ayarlarını yoruma alıyoruz.)
+    - ENV_NAME=dev  
+        - (prod ayarlarımızda db olarak postgresql var. bizim dev ayarlarını kullanmamız daha iyi. Ayrıca dev ayarlarını kullanırken de; debug.toolbar sadece localhost ta çalışıyor. Bu yüzden debug.toolbar ayarları ile development çalıştırılırsa hata verecektir. Bu hatayı almamak için dev.py daki debug.toolbar ayarlarını yoruma alıyoruz.)
     - Bir de DJANGO_LOG_LEVEL=INFO ayarımız vardı onu da .env file ımıza ekliyoruz.
 
 settings/dev.py
@@ -2011,6 +2012,7 @@ DATABASES = {
 
 - .env dosyamızın en son hali -> 
 
+.env
 ```py
 SECRET_KEY=o_zoo)sc$ef3bbctpryhi7pz!i)@)%s!ffg_zsxd^n+z+h5=7i
 DEBUG=True
@@ -2018,7 +2020,9 @@ ENV_NAME=dev
 DJANGO_LOG_LEVEL=INFO
 ```
 
-- bash console a gidip db mizdeki tablolarımız oluşturacağız. bash console da manage.py file ının bulunduğu dizine gidip db miz deki tablolarımızı oluşturuyoruz, superuser oluşturuyoruz,
+- bash console a gidip db mizdeki tablolarımız oluşturacağız.
+- (Biz projemizi github'a pushlarken db.sqlite3' yi de pushlamıştık. Yani db miz var. Eğer db'siz olarak github'a pushlayıp, oradan pythonanywhere'e deploye ediyorsak o zaman migrate ve superuser yapmamız gerekiyor.) 
+- bash console da manage.py file ının bulunduğu dizine gidip db miz deki tablolarımızı oluşturuyoruz, superuser oluşturuyoruz,
 
 ```bash
 python manage.py migrate
@@ -2027,9 +2031,10 @@ python manage.py createsuperuser
 
 - dashboard a gidip Reload butonuna tıklıyoruz. Tüm değişiklikleri algılayacaktır. Daha sonra hemen bir üstte verdiği link ile projemizi pythonanywhere de yeni sekmede çalıştırıyoruz. admin panele giriyoruz,
 - statics ler olmadan, css ler olmadan sayfamız geldi. 
-- statics lerin görünmemesinin sebebi; django admin panel bir application ve bunun static file ları env içerisinde duruyor. Bunu localhost ta çalıştırdığımız zaman sıkıntı yaşamıyoruz ama canlı servera aldığımız zaman static root diye bir directory belirtmemiz gerekiyor. Static root, bütüm environment ta olan static file ları veya application içerisinde varsa static file larımızı (css, javascript, image)  bunların hepsini tek bir klasör altında topluyor ve canlıdayken oradan çekiyor. Bu static ayarı nı yapmamız gerekiyor. Nasıl yapacağız;
+- statics lerin görünmemesinin sebebi; django admin panel bir application ve bunun static file ları env içerisinde duruyor. Bunu localhost ta çalıştırdığımız zaman sıkıntı yaşamıyoruz ama canlı servera aldığımız zaman static root diye bir directory belirtmemiz gerekiyor. Static root, bütün environment ta olan static file ları veya application içerisinde varsa static file larımızı (css, javascript, image)  bunların hepsini tek bir klasör altında topluyor ve canlıdayken oradan çekiyor. Bu static ayarı nı yapmamız gerekiyor. Nasıl yapacağız;
 - dashboadr -> Cource code -> Go to directory -> main -> settings -> base.py  içine STATİC_URL = 'static' altına STATIC_ROOT = BASE_DIR / 'static' yazıyoruz.
-- 
+
+settings/base.py
 ```py
 STATİC_URL = 'static'
 STATIC_ROOT = BASE_DIR / 'static'
@@ -2043,7 +2048,8 @@ python manage.py collectstatic
 - bu komut çalıştırıldıktan sonra; 197 adet static file kopyalandı ve belirttiğimiz folder altında toplandı.
 " 197 static files copied to '/home/umit8098/Project_Django_Rest_Framework_Flight_App/main/static'. "
 
-- Şimdi dashboarda gidip, web kısmında Static files: kısmında URL altında URL ini,  ve Directory altında path ini giriyoruz. (path ini zaten bize vermişti -> 197 static files cop..... kısmının sonunda.)
+- Şimdi dashboarda gidip, web kısmında Static files: kısmında URL altında URL ini (/static/),  ve Directory altında path ini giriyoruz. (path ini zaten bize vermişti -> 197 static files cop..... kısmının sonunda. (/home/umit8098/Project_Django_Rest_Framework_Flight_App/main/static))
+- girdikten sonra ✔ işareti ile kaydetmeliyiz.
   
 ```py
 /static/
