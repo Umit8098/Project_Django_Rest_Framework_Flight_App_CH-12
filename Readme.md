@@ -1905,7 +1905,7 @@ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App.g
         All done! Your web app is now set up. Details below. 
         (Hepsi tamam! Web uygulamanız artık kuruldu. Detaylar aşağıda.)
   - Artık app kuruldu ve app ile ilgili bir dashboard sundu bize. Burada manuel configurations lar yapacağız. 
-        Bu site 06 Temmuz 2023 Perşembe günü devre dışı bırakılacaktır. Buradan 3 ay daha app i çalıştırmak için bir button var.
+        Bu site 28 Temmuz 2024 Pazar günü devre dışı bırakılacaktır. Buradan 3 ay daha app i çalıştırmak için bir button var.
 
 - Şimdi yapacağımız işlemler -> 
   - Code:
