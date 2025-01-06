@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Project_Django_Template_Blog_App</h1>
+<h1 align="center">Project_Django_Rest_Framework_Flight_App</h1>
 
 
 <div align="center">
