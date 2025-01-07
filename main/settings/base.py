@@ -194,7 +194,7 @@ REST_FRAMEWORK = {
     ]
 }
 
-REST_AUTH_SERIALIZERS = {
+REST_AUTH = {
     'TOKEN_SERIALIZER': 'users.serializers.CustomTokenSerializer',
     
 }
