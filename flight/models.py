@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 class Flight(models.Model):
-    flight_number = models.CharField(max_length=10)
+    flight_number = models.CharField(max_length=10, unique=True)
     operation_airlines = models.CharField(max_length=15)
     departure_city = models.CharField(max_length=30)
     arrival_city = models.CharField(max_length=30)

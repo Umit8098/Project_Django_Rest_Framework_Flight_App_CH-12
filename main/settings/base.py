@@ -48,8 +48,8 @@ INSTALLED_APPS = [
     # 'debug_toolbar',
     'rest_framework.authtoken',
     'dj_rest_auth',
-    
 ]
+
 
 MIDDLEWARE = [
     # "debug_toolbar.middleware.DebugToolbarMiddleware",
