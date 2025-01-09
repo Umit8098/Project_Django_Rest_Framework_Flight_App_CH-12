@@ -82,6 +82,7 @@
 - Swagger
 - Debug Toolbar
 - Logging
+- Redoc
 - PostgreSQL
 
 ## How To Use
