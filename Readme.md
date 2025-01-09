@@ -118,7 +118,8 @@ $ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App
 # Add Your SECRET_KEY in .env file
 
 """
-## for development(dev) environments
+# example .env; 
+# for development(dev) environments
 DEBUG =True
 
 # for product(prod) environments
