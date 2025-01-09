@@ -87,6 +87,17 @@
 <!-- This is an example, please update according to your application -->
 
 To clone and run this application, you'll need [Git](https://github.com/Umit8098/Proj_Django_Temp_Blog_App_CH-8) 
+
+When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
+
+Complete the installation by uncommenting the appropriate package.
+
+---
+
+requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
+
+Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
+
 ```bash
 # Clone this repository
 $ git clone https://github.com/Umit8098/Proj_Django_Temp_Blog_App_CH-8.git
