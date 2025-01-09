@@ -6,7 +6,7 @@ from rest_framework.validators import UniqueValidator
 class FlightSerializer(serializers.ModelSerializer):
 
     flight_number = serializers.CharField(  
-        validators=[UniqueValidator(queryset=Flight.objects.all())],
+        validators=[UniqueValidator(queryset=Flight.objects.all(), message='Bu alan benzersiz olmalıdır.')],
         )
 
     class Meta:
@@ -53,6 +53,9 @@ class ReservationSerializer(serializers.ModelSerializer):
     
 class StaffFlightSerializer(serializers.ModelSerializer):
     
+    flight_number = serializers.CharField(
+        validators=[UniqueValidator(queryset=Flight.objects.all(), message='Uçuş numarası benzersiz olmalıdır.')],
+        )
     reservation = ReservationSerializer(many=True, read_only=True)
     
     class Meta:
