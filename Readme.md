@@ -137,7 +137,7 @@ $ git clone https://github.com/Umit8098/Proj_Django_Temp_Blog_App_CH-8.git
 - Tüm gönderilerin beğeni, görüntülenme, yorum istatiktikleri görüntülenmektedir.
 
 ## Acknowledgements
-- Information for your projects
+- 
 
 ## Contact
 
