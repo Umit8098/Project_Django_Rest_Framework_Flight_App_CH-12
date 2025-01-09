@@ -78,10 +78,11 @@
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- HTML
-- Bootstrap4
-- JS
-- Django Templates
+- Djago Rest Framework
+- Swagger
+- Debug Toolbar
+- Logging
+- PostgreSQL
 
 ## How To Use
 
@@ -101,7 +102,7 @@ Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin.
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Umit8098/Proj_Django_Temp_Blog_App_CH-8.git
+$ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12.git
 
 # Install dependencies
     $ python -m venv env
@@ -137,7 +138,7 @@ $ git clone https://github.com/Umit8098/Proj_Django_Temp_Blog_App_CH-8.git
 - Tüm gönderilerin beğeni, görüntülenme, yorum istatiktikleri görüntülenmektedir.
 
 ## Acknowledgements
-- 
+- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - Projede kullanılan system logging modül'ü.
 
 ## Contact
 
