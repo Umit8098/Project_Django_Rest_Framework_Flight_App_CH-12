@@ -31,35 +31,47 @@
 
 ## Overview
 
-![screenshot](project_screenshot/home_list.png)
+![screenshot](project_screenshot/user_register.png)
 
 ---
 
-![screenshot](project_screenshot/post_detail.png)
+![screenshot](project_screenshot/user_detail.png)
 
 ---
 
-![screenshot](project_screenshot/register.png)
+![screenshot](project_screenshot/user_login.png)
 
 ---
 
-![screenshot](project_screenshot/login.png)
+![screenshot](project_screenshot/user_logout.png)
 
 ---
 
-![screenshot](project_screenshot/profile.png)
+![screenshot](project_screenshot/user_password_change.png)
 
 ---
 
-![screenshot](project_screenshot/admin_panel.png)
+![screenshot](project_screenshot/flight_create.png)
 
 ---
 
-![screenshot](project_screenshot/change_password.png)
+![screenshot](project_screenshot/flight_get.png)
 
 ---
 
-![screenshot](project_screenshot/reset_password.png)
+![screenshot](project_screenshot/flight_update.png)
+
+---
+
+![screenshot](project_screenshot/reservations_create.png)
+
+---
+
+![screenshot](project_screenshot/reservations_detail.png)
+
+---
+
+![screenshot](project_screenshot/reservations_get.png)
 
 ## Built With
 
