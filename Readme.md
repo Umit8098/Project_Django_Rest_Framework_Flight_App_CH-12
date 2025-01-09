@@ -24,6 +24,7 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
+- [About This Project](#about-this-project)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
@@ -114,8 +115,7 @@ $ git clone https://github.com/Umit8098/Proj_Django_Temp_Blog_App_CH-8.git
     $ python manage.py runserver
 ```
 
-## Acknowledgements
-- Information for your projects
+## About This Project
 - This is a blogging application.
 - Users can view posts anonymously.
 - If they want to create a post, comment on the post, or like the post, they must register and log in to the application. After registering, they can update the profile information created for them.
@@ -134,7 +134,10 @@ $ git clone https://github.com/Umit8098/Proj_Django_Temp_Blog_App_CH-8.git
 - Yaptığı işlemler ekranda belirip kaybolan bir mesajla kullanıcıya bildirilir.
 - Eğer giriş şifrelerini unutmuşlarsa, kayıtlı e posta adreslerine giriş şifresi oluşturabilmeleri için posta gönderilir.
 - Ayrıca isterlerse giriş şifrelerini değiştirebilirler.
-- Tüm gönderilerin beğeni, görüntülenme, yorum istatiktikleri görüntülenmektedir. 
+- Tüm gönderilerin beğeni, görüntülenme, yorum istatiktikleri görüntülenmektedir.
+
+## Acknowledgements
+- Information for your projects
 
 ## Contact
 
