@@ -114,7 +114,7 @@ $ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App
     $ python manage.py migrate (for win OS)
     $ python3 manage.py migrate (for macOs/linux OS)
 # Create and Edit .env
-# Add SECRET_KEY in .env file
+# Add Your SECRET_KEY in .env file
 
 """
 ## for development(dev) environments
