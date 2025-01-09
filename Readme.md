@@ -113,6 +113,7 @@ $ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App
     $ pip install -r requirements.txt
     $ python manage.py migrate (for win OS)
     $ python3 manage.py migrate (for macOs/linux OS)
+
 # Create and Edit .env
 # Add Your SECRET_KEY in .env file
 
