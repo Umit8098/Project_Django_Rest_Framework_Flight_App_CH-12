@@ -106,36 +106,54 @@ $ git clone https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App
 
 # Install dependencies
     $ python -m venv env
-    > env/Scripts/activate (for win OS)
+    $ python3.9 -m venv env (for macOs/linux OS)
+    $ env/Scripts/activate (for win OS)
     $ source env/bin/activate (for macOs/linux OS)
     $ pip install -r requirements.txt
-# Edit .backend.env to .env
+    $ python manage.py migrate (for win OS)
+    $ python3 manage.py migrate (for macOs/linux OS)
+# Create and Edit .env
 # Add SECRET_KEY in .env file
 
+'''
+## for development(dev) environments
+DEBUG =True
+
+# for product(prod) environments
+SQL_DATABASE={DB_NAME}
+SQL_USER={DB_USER_NAME}
+SQL_PASSWORD={DB_PASSWORD}
+SQL_HOST=localhost
+SQL_PORT=5432
+
+# for choices environment
+ENV_NAME =dev
+# ENV_NAME =prod
+
+DJANGO_LOG_LEVEL=INFO
+'''
 # Run the app
     $ python manage.py runserver
 ```
 
 ## About This Project
-- This is a blogging application.
-- Users can view posts anonymously.
-- If they want to create a post, comment on the post, or like the post, they must register and log in to the application. After registering, they can update the profile information created for them.
-- Users can perform CRUD (Create-Read-Update_Delete) operations.
-- The user is notified of the actions taken by a message that appears and disappears on the screen.
-- If they have forgotten their login password, an e-mail will be sent to their registered e-mail address so that they can create a login password.
-- They can also change their login passwords if they wish.
-- Like, view and comment statistics of all posts are displayed.
+- This is a flight booking application.
+- staff_users can perform CRUD (Create-Read-Update_Delete) operations for flights.
+- staff_users can view reservations on all flights (including past flights) with their passengers.
+- Users can anonymously view flights from the current time. 
+- To create a reservation, they must register and log in to the application. 
+- Users can perform CRUD (Create-Read-Update_Delete) operations on their own reservations.
+- Users can change their login passwords.
 
 <hr>
 
-- Bu bir blog uygulamasıdır.
-- Kullanıcılar anonim olarak gönderileri görüntüleyebilirler.
-- Gönderi oluşturmak, gönderiye yorum yazmak, gönderiyi beğenmek isterlerse uygulamaya kayıt olup giriş yapmaları gerekir. Kayıt olduktan sonra kendileri için oluşturulan profil bildilerini güncelleyebiliriler.
-- Kullanıcılar CRUD (Create-Read-Update_Delete) işlemleri yapabilir.
-- Yaptığı işlemler ekranda belirip kaybolan bir mesajla kullanıcıya bildirilir.
-- Eğer giriş şifrelerini unutmuşlarsa, kayıtlı e posta adreslerine giriş şifresi oluşturabilmeleri için posta gönderilir.
-- Ayrıca isterlerse giriş şifrelerini değiştirebilirler.
-- Tüm gönderilerin beğeni, görüntülenme, yorum istatiktikleri görüntülenmektedir.
+- Bu bir uçuş rezervasyon uygulamasıdır.
+- staff_user'lar uçuşlar için CRUD (Create-Read-Update_Delete) işlemleri yapabilir.
+- staff_user'lar tüm uçuşlardaki (geçmiş uçuşlar dahil) rezervasyonları yolcuları ile birlikte görüntüleyebilir.
+- Kullanıcılar anonim olarak şimdiki zamandan sonraki uçuşları görüntüleyebilirler. 
+- Rezervasyon oluşturmak için uygulamaya kayıt olup giriş yapmaları gerekir. 
+- Kullanıcılar kendi rezervasyonlarında CRUD (Create-Read-Update_Delete) işlemleri yapabilir.
+- Kullanıcılar giriş şifrelerini değiştirebilirler.
 
 ## Acknowledgements
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - Projede kullanılan system logging modül'ü.
