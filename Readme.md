@@ -60,28 +60,6 @@
 
 ---
 
-![screenshot](project_screenshot/flight_create.png)
-
----
-
-![screenshot](project_screenshot/flight_get.png)
-
----
-
-![screenshot](project_screenshot/flight_update.png)
-
----
-
-![screenshot](project_screenshot/reservations_create.png)
-
----
-
-![screenshot](project_screenshot/reservations_detail.png)
-
----
-
-![screenshot](project_screenshot/reservations_get.png)
-
 ## Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
