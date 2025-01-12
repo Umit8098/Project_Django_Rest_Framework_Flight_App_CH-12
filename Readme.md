@@ -32,6 +32,14 @@
 
 ## Overview
 
+![screenshot](project_screenshot/Flight_App_1.gif)
+
+---
+
+![screenshot](project_screenshot/Flight_App_2.gif)
+
+---
+
 ![screenshot](project_screenshot/user_register.png)
 
 ---
