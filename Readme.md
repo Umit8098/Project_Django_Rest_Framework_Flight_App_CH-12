@@ -150,6 +150,7 @@ DJANGO_LOG_LEVEL=INFO
 
 ## Acknowledgements
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - Projede kullanılan system logging modül'ü.
+- [Swagger](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Projede kullanılan environment ve document modül'ü. 
 
 ## Contact
 
