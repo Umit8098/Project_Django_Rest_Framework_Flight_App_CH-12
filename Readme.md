@@ -137,6 +137,7 @@ DJANGO_LOG_LEVEL=INFO
 - To create a reservation, they must register and log in to the application. 
 - Users can perform CRUD (Create-Read-Update_Delete) operations on their own reservations.
 - Users can change their login passwords.
+- Separate environment settings for production and development.
 
 <hr>
 
@@ -147,6 +148,7 @@ DJANGO_LOG_LEVEL=INFO
 - Rezervasyon oluşturmak için uygulamaya kayıt olup giriş yapmaları gerekir. 
 - Kullanıcılar kendi rezervasyonlarında CRUD (Create-Read-Update_Delete) işlemleri yapabilir.
 - Kullanıcılar giriş şifrelerini değiştirebilirler.
+- Production ve development için ayrı ortam ayarları.
 
 ## Acknowledgements
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
