@@ -149,8 +149,9 @@ DJANGO_LOG_LEVEL=INFO
 - Kullanıcılar giriş şifrelerini değiştirebilirler.
 
 ## Acknowledgements
-- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - Projede kullanılan system logging modül'ü.
-- [Swagger](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Projede kullanılan environment ve document modül'ü. 
+- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
+- [Swagger](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
+- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul 
 
 ## Contact
 
