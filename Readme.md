@@ -138,6 +138,7 @@ DJANGO_LOG_LEVEL=INFO
 - Users can perform CRUD (Create-Read-Update_Delete) operations on their own reservations.
 - Users can change their login passwords.
 - Separate environment settings for production and development.
+- Using Postgresql database in production environment.
 
 <hr>
 
@@ -149,6 +150,8 @@ DJANGO_LOG_LEVEL=INFO
 - Kullanıcılar kendi rezervasyonlarında CRUD (Create-Read-Update_Delete) işlemleri yapabilir.
 - Kullanıcılar giriş şifrelerini değiştirebilirler.
 - Production ve development için ayrı ortam ayarları.
+- Production ortamında postgresql database kullanımı.
+
 
 ## Acknowledgements
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
