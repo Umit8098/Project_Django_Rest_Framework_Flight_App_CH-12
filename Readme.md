@@ -31,31 +31,31 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
+- Project swagger and redoc 
 ![screenshot](project_screenshot/Flight_App_1.gif)
 
 ---
-
+- Flight app testing on Postman
 ![screenshot](project_screenshot/Flight_App_2.gif)
 
 ---
-
+- user/authentication app testing on Postman
 ![screenshot](project_screenshot/user_register.png)
 
 ---
-
+- user/authentication app testing on Postman
 ![screenshot](project_screenshot/user_detail.png)
 
 ---
-
+- user/authentication app testing on Postman
 ![screenshot](project_screenshot/user_login.png)
 
 ---
-
+- user/authentication app testing on Postman
 ![screenshot](project_screenshot/user_logout.png)
 
 ---
-
+- user/authentication app testing on Postman
 ![screenshot](project_screenshot/user_password_change.png)
 
 ---
