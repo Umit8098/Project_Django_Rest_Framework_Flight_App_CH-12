@@ -156,7 +156,9 @@ DJANGO_LOG_LEVEL=INFO
 ## Acknowledgements
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
 - [Swagger](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
-- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul 
+- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul
+- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/)
+
 
 ## Contact
 
