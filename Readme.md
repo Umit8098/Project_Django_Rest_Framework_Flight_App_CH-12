@@ -3,18 +3,18 @@
 <h1 align="center">Project_Django_Rest_Framework_Flight_App</h1>
 
 
-<!-- <div align="center">
+<div align="center">
   <h3>
-    <a href="https://umit8113.pythonanywhere.com/">
+    <a href="https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12">
       Demo
     </a>
      | 
-    <a href="https://umit8113.pythonanywhere.com/">
+    <a href="https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12">
       Project
     </a>
  
   </h3>
-</div> -->
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
