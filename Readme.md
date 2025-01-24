@@ -40,7 +40,7 @@ Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirs
 ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png)
 
 
-<img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="600"/>
+<img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="400"/>
 
   
 - [RedocDokümantasyonu](https://umit8113.pythonanywhere.com/redoc/)
