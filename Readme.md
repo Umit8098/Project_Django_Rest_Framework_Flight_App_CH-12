@@ -71,27 +71,33 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 
 ---
 - Flight app testing on Postman
-![screenshot](project_screenshot/Flight_App_2.gif)
+<!-- ![screenshot](project_screenshot/Flight_App_2.gif) -->
+<img src="project_screenshot/Flight_App_2.gif" alt="Flight app testing on Postman" width="400"/>
 
 ---
 - user/authentication app testing on Postman
-![screenshot](project_screenshot/user_register.png)
+<!-- ![screenshot](project_screenshot/user_register.png) -->
+<img src="project_screenshot/user_register.png" alt="user/authentication app testing on Postman" width="400"/>
 
 ---
 - user/authentication app testing on Postman
-![screenshot](project_screenshot/user_detail.png)
+<!-- ![screenshot](project_screenshot/user_detail.png) -->
+<img src="project_screenshot/user_detail.png" alt="user/authentication app testing on Postman" width="400"/>
 
 ---
 - user/authentication app testing on Postman
-![screenshot](project_screenshot/user_login.png)
+<!-- ![screenshot](project_screenshot/user_login.png) -->
+<img src="project_screenshot/user_login.png" alt="user/authentication app testing on Postman" width="400"/>
 
 ---
 - user/authentication app testing on Postman
-![screenshot](project_screenshot/user_logout.png)
+<!-- ![screenshot](project_screenshot/user_logout.png) -->
+<img src="project_screenshot/user_logout.png" alt="user/authentication app testing on Postman" width="400"/>
 
 ---
 - user/authentication app testing on Postman
-![screenshot](project_screenshot/user_password_change.png)
+<!-- ![screenshot](project_screenshot/user_password_change.png) -->
+<img src="project_screenshot/user_password_change.png" alt="user/authentication app testing on Postman" width="400"/>
 
 ---
 
