@@ -52,7 +52,7 @@ Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirs
   ![Swagger ve Redoc Arayüzü](project_screenshot/Flight_App_1.gif)
 
 Bu dokümantasyonlar sayesinde API endpoint'lerini kolayca test edebilir ve yapılarını inceleyebilirsiniz.
-Not: Swagger ve Redoc dokümantasyonlarına herhangi bir kullanıcı girişi yapmadan erişebilirsiniz.
+  - Not: Swagger ve Redoc dokümantasyonlarına herhangi bir kullanıcı girişi yapmadan erişebilirsiniz.
 
 
 ## Overview
