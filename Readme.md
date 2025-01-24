@@ -48,15 +48,24 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirsiniz:
 
 - [Swagger Dokümantasyonu](https://umit8113.pythonanywhere.com/swagger/)
-- [Redoc Dokümantasyonu](https://umit8113.pythonanywhere.com/redoc/)
-  ![Swagger ve Redoc Arayüzü](project_screenshot/Flight_App_1.gif)
+- Swagger, API endpoint'lerini test etmek ve incelemek için kullanımı kolay bir arayüz sunar.
+- "Swagger Dokümantasyonu Görseli"
+  ![Swagger Arayüzü](project_screenshot/Swagger Dokümantasyonu Görseli.png)
 
-- Bu dokümantasyonlar sayesinde API endpoint'lerini kolayca test edebilir ve yapılarını inceleyebilirsiniz.
-- Not: Swagger ve Redoc dokümantasyonlarına herhangi bir kullanıcı girişi yapmadan erişebilirsiniz.
+  
+- [Redoc Dokümantasyonu](https://umit8113.pythonanywhere.com/redoc/)
+- Redoc, kapsamlı ve düzenli bir API dokümantasyon yapısı sağlar.
+- "Redoc Dokümantasyonu Görseli"
+  ![Redoc Arayüzü](project_screenshot/Redoc Dokümantasyonu Görseli.png)
+
+<!-- - Bu dokümantasyonlar sayesinde API endpoint'lerini kolayca test edebilir ve yapılarını inceleyebilirsiniz. -->
+**Not:** Swagger ve Redoc dokümantasyonlarına herhangi bir kullanıcı girişi yapmadan erişebilirsiniz.
+
+- Swagger ve Redoc dokümantasyonlarıyla birlikte, API'leri test etmek için Postman koleksiyonumuzu kullanabilirsiniz. [Flight Reservation API Postman Koleksiyonu](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-5c497d31-9dd6-44f2-930c-8f4337595920?action=share&creator=17531143)
 
 
 ## Overview
-- Project swagger and redoc 
+- Project Swagger and Redoc Documentation Visual 
 ![screenshot](project_screenshot/Flight_App_1.gif)
 
 ---
