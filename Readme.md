@@ -126,21 +126,21 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 
 <!-- This is an example, please update according to your application -->
 
-- Çevrimiçi demo için: [Swagger](https://umit8113.pythonanywhere.com/swagger/) veya [Redoc](https://umit8113.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
+- For online demo: [Swagger](https://umit8113.pythonanywhere.com/swagger/) veya [Redoc](https://umit8113.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
 
-To clone and run this application, you'll need [Git](https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12.git) 
+- To clone and run this application, you'll need [Git](https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12.git) 
 
-When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
+- When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
 
-Complete the installation by uncommenting the appropriate package.
+- Complete the installation by uncommenting the appropriate package.
 
 ---
 
 - Çevrimiçi demo için: [Swagger](https://umit8113.pythonanywhere.com/swagger/) veya [Redoc](https://umit8113.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
 
-requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
+- requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
 
-Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
+- Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
 
 ```bash
 # Clone this repository
