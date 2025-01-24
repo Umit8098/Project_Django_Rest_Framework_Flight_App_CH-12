@@ -106,7 +106,7 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 - API dokümantasyonları Swagger ve Redoc ile detaylandırılmıştır. İlgili linklere [Swagger](https://umit8113.pythonanywhere.com/swagger/) ve [Redoc](https://umit8113.pythonanywhere.com/redoc/) üzerinden ulaşabilirsiniz.
 
 
-- Bu uygulama, uçuş rezervasyon süreçlerini kolaylaştıran modern bir API çözümüdür. 
+- Flight Reservation App, kullanıcıların uçuş rezervasyonlarını yönetebilmesi ve API dokümantasyonuyla kolay entegrasyon sağlaması için geliştirilmiş modern bir backend uygulamasıdır.
 - Kullanıcılar ve staff rollerine özgü CRUD işlemleri sunar.
 - API dokümantasyonları için Swagger ve Redoc kullanılmıştır.
 
