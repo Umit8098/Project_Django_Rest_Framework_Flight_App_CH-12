@@ -27,6 +27,7 @@
 - [About This Project](#about-this-project)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
+- [API Testing](#api-testing)
 
 <!-- OVERVIEW -->
 
@@ -167,3 +168,16 @@ DJANGO_LOG_LEVEL=INFO
 
 - Linkedin [@umit-arat](https://linkedin.com/in/umit-arat/)
 <!-- - Twitter [@your-twitter](https://{twitter.com/your-username}) -->
+
+
+
+## API Testing
+
+API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
+
+1. Postman'i yükleyin (eğer yüklü değilse): [Postman İndir](https://www.postman.com/downloads/).
+2. Bu [Postman Koleksiyonunu](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-5c497d31-9dd6-44f2-930c-8f4337595920?action=share&creator=17531143) indirin ve içe aktarın.
+3. API'leri Postman üzerinden test etmeye başlayın.
+
+**Postman Koleksiyon Linki:**  
+[Flight Reservation API Postman Koleksiyonu](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-5c497d31-9dd6-44f2-930c-8f4337595920?action=share&creator=17531143)
