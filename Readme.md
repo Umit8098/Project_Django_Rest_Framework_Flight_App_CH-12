@@ -66,7 +66,8 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 
 ## Overview
 - Project Swagger and Redoc Documentation Visual 
-![screenshot](project_screenshot/Flight_App_1.gif)
+<!-- ![screenshot](project_screenshot/Flight_App_1.gif) -->
+<img src="project_screenshot/Flight_App_1.gif" alt="Project Swagger and Redoc Documentation Visual" width="400"/>
 
 ---
 - Flight app testing on Postman
