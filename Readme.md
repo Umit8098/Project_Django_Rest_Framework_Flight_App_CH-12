@@ -22,8 +22,8 @@
 
 - [Table of Contents](#table-of-contents)
 - [API Documentation](#api-documentation)
-- [Overview](#overview)
 - [API Testing](#api-testing)
+- [Overview](#overview)
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
 - [About This Project](#about-this-project)
@@ -48,6 +48,17 @@ Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirs
 **Not:** Swagger ve Redoc dokümantasyonlarına herhangi bir kullanıcı girişi yapmadan erişebilirsiniz.
 
 - Swagger ve Redoc dokümantasyonlarıyla birlikte, API'leri test etmek için Postman koleksiyonumuzu kullanabilirsiniz. [Flight Reservation API Postman Koleksiyonu](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-5c497d31-9dd6-44f2-930c-8f4337595920?action=share&creator=17531143)
+
+## API Testing
+
+API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
+
+1. Postman'i yükleyin (eğer yüklü değilse): [Postman İndir](https://www.postman.com/downloads/).
+2. Bu [Postman Koleksiyonunu](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-5c497d31-9dd6-44f2-930c-8f4337595920?action=share&creator=17531143) indirin ve içe aktarın.
+3. API'leri Postman üzerinden test etmeye başlayın.
+
+**Postman Koleksiyon Linki:**  
+[Flight Reservation API Postman Koleksiyonu](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-5c497d31-9dd6-44f2-930c-8f4337595920?action=share&creator=17531143)
 
 
 ## Overview
@@ -81,18 +92,9 @@ Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirs
 ---
 
 - API dokümantasyonları Swagger ve Redoc ile detaylandırılmıştır. İlgili linklere buradan ulaşabilirsiniz.
-
-
-## API Testing
-
-API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilirsiniz:
-
-1. Postman'i yükleyin (eğer yüklü değilse): [Postman İndir](https://www.postman.com/downloads/).
-2. Bu [Postman Koleksiyonunu](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-5c497d31-9dd6-44f2-930c-8f4337595920?action=share&creator=17531143) indirin ve içe aktarın.
-3. API'leri Postman üzerinden test etmeye başlayın.
-
-**Postman Koleksiyon Linki:**  
-[Flight Reservation API Postman Koleksiyonu](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-5c497d31-9dd6-44f2-930c-8f4337595920?action=share&creator=17531143)
+Bu uygulama, uçuş rezervasyon süreçlerini kolaylaştıran modern bir API çözümüdür. 
+- Kullanıcılar ve staff rollerine özgü CRUD işlemleri sunar.
+- API dokümantasyonları için Swagger ve Redoc kullanılmıştır.
 
 
 ## Built With
@@ -110,6 +112,8 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 
 <!-- This is an example, please update according to your application -->
 
+- Çevrimiçi demo için: [Swagger](https://umit8113.pythonanywhere.com/swagger/) veya [Redoc](https://umit8113.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
+
 To clone and run this application, you'll need [Git](https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12.git) 
 
 When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
@@ -117,6 +121,8 @@ When installing the required packages in the requirements.txt file, review the p
 Complete the installation by uncommenting the appropriate package.
 
 ---
+
+- Çevrimiçi demo için: [Swagger](https://umit8113.pythonanywhere.com/swagger/) veya [Redoc](https://umit8113.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
 
 requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
 
