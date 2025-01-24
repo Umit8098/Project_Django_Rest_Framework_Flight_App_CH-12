@@ -39,6 +39,9 @@ Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirs
 - "Swagger Dokümantasyonu Görseli": API endpoint'lerini kolayca test etmenizi sağlayan bir arayüz.
 ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png)
 
+
+<img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="600"/>
+
   
 - [RedocDokümantasyonu](https://umit8113.pythonanywhere.com/redoc/)
 - "Redoc Dokümantasyonu Görseli": API yapısını detaylı ve düzenli bir şekilde sunan bir dokümantasyon aracı.
