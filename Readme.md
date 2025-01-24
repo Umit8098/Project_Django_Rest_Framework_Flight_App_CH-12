@@ -37,9 +37,7 @@ Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirs
 
 - [Swagger Dokümantasyonu](https://umit8113.pythonanywhere.com/swagger/)
 - "Swagger Dokümantasyonu Görseli": API endpoint'lerini kolayca test etmenizi sağlayan bir arayüz.
-![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png)
-
-
+<!-- ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="400"/>
 
   
