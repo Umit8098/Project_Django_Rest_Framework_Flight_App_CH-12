@@ -91,7 +91,8 @@ API'leri Postman üzerinden test etmek için aşağıdaki adımları izleyebilir
 
 ---
 
-- API dokümantasyonları Swagger ve Redoc ile detaylandırılmıştır. İlgili linklere buradan ulaşabilirsiniz.
+- API dokümantasyonları Swagger ve Redoc ile detaylandırılmıştır. İlgili linklere <a href="https://umit8113.pythonanywhere.com/swagger/" target="_blank">Swagger</a> ve <a href="https://umit8113.pythonanywhere.com/redoc/" target="_blank">Redoc</a> üzerinden ulaşabilirsiniz.
+
 Bu uygulama, uçuş rezervasyon süreçlerini kolaylaştıran modern bir API çözümüdür. 
 - Kullanıcılar ve staff rollerine özgü CRUD işlemleri sunar.
 - API dokümantasyonları için Swagger ve Redoc kullanılmıştır.
