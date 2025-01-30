@@ -52,7 +52,7 @@ Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirs
 ---
 
 <!-- - Bu dokümantasyonlar sayesinde API endpoint'lerini kolayca test edebilir ve yapılarını inceleyebilirsiniz. -->
-**Not:** You can access Swagger and Redoc documentation without any user login.
+**Notes:** You can access Swagger and Redoc documentation without any user login.
 
 **Not:** Swagger ve Redoc dokümantasyonlarına herhangi bir kullanıcı girişi yapmadan erişebilirsiniz.
 
