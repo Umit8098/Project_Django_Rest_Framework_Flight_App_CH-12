@@ -201,10 +201,10 @@ SECRET_KEY =123456789abcdefg...
 # for development(dev) environments
 DEBUG =True
 
-# for product(prod) environments
-SQL_DATABASE={DB_NAME}
-SQL_USER={DB_USER_NAME}
-SQL_PASSWORD={DB_PASSWORD}
+# PostgreSQL settings for product (product) environments
+SQL_DATABASE={your_database_name}
+SQL_USER={your_database_user}
+SQL_PASSWORD={your_database_password}
 SQL_HOST=localhost
 SQL_PORT=5432
 
@@ -212,10 +212,12 @@ SQL_PORT=5432
 ENV_NAME =dev
 # ENV_NAME =prod
 
+# Logging level
 DJANGO_LOG_LEVEL=INFO
 """
 
 # Run the app
+    $ python manage.py migrate
     $ python manage.py runserver
 ```
 
