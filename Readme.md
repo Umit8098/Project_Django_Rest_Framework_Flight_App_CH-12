@@ -147,12 +147,12 @@ Flight Reservation App, kullanıcıların uçuş rezervasyonlarını yönetebile
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [Django Rest Framework](https://www.django-rest-framework.org/) - Framework used to create REST APIs.
-- [Swagger And Redoc](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
-- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul
+- [Django Rest Framework](https://www.django-rest-framework.org/) - A powerful framework for developing REST APIs.
+- [Swagger And Redoc](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - API documentation and testing tools. 
+- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - A powerful tool for debugging operations.
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
-- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - for authentication 
-- PostgreSQL
+- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - User authentication and authorization.
+- PostgreSQL - High performance database for production environment.
 
 
 ## How To Use
