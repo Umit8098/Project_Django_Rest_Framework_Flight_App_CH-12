@@ -35,16 +35,16 @@
 
 ## API Documentation
 
-Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirsiniz:
+You can access the detailed API documentation of the project from the links below:
 
-- [Swagger Dokümantasyonu](https://umit8113.pythonanywhere.com/swagger/)
+- [Swagger Documentation](https://umit8113.pythonanywhere.com/swagger/)
 <!-- ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="400"/>
 ➡ Interface that allows you to easily test API endpoints.
 
 ---
 
-- [RedocDokümantasyonu](https://umit8113.pythonanywhere.com/redoc/)
+- [Redoc Documentation](https://umit8113.pythonanywhere.com/redoc/)
 <!-- ![Redoc_Arayüzü](project_screenshot/Redoc_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Redoc_Dokümantasyonu_Görseli.png" alt="Redoc Arayüzü" width="400"/>
 ➡ Documentation tool that presents the API structure in a detailed and organized way.
@@ -159,7 +159,7 @@ Flight Reservation App, kullanıcıların uçuş rezervasyonlarını yönetebile
 
 <!-- This is an example, please update according to your application -->
 
-- For online demo: [Swagger](https://umit8113.pythonanywhere.com/swagger/) veya [Redoc](https://umit8113.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
+- For online demo: You can take a look at the [Swagger](https://umit8113.pythonanywhere.com/swagger/) and [Redoc](https://umit8113.pythonanywhere.com/redoc/) interfaces.
 
 - To clone and run this application, you'll need [Git](https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12.git) 
 
@@ -171,9 +171,9 @@ Flight Reservation App, kullanıcıların uçuş rezervasyonlarını yönetebile
 
 - For online demo: You can take a look at [Swagger](https://umit8113.pythonanywhere.com/swagger/) or [Redoc](https://umit8113.pythonanywhere.com/redoc/) interfaces.
 
-- Examine the package differences for Windows/macOS/Linux environments during the installation of the required packages in the requirements.txt file. 
+- requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
 
-- Complete the installation by uncommenting the appropriate package.
+- Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
 
 ---
 
