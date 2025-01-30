@@ -35,7 +35,7 @@
 
 ## API Documentation
 
-- Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirsiniz:
+Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirsiniz:
 
 - [Swagger Dokümantasyonu](https://umit8113.pythonanywhere.com/swagger/)
 <!-- ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png) -->
@@ -49,6 +49,7 @@
 <img src="project_screenshot/Redoc_Dokümantasyonu_Görseli.png" alt="Redoc Arayüzü" width="400"/>
 ➡ Documentation tool that presents the API structure in a detailed and organized way.
 
+---
 
 <!-- - Bu dokümantasyonlar sayesinde API endpoint'lerini kolayca test edebilir ve yapılarını inceleyebilirsiniz. -->
 **Not:** You can access Swagger and Redoc documentation without any user login.
