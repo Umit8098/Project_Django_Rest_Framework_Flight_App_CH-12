@@ -5,8 +5,6 @@
 <p align="center"><strong>✈️ A modern flight booking system API
  ✈️</strong></p>
 
-<p align="center">✈️ Modern bir uçuş rezervasyon sistemi API'si ✈️</p>
-
 <!-- <div align="center">
   <h3>
     <a href="https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12">
