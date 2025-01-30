@@ -29,7 +29,6 @@
 - [Built With](#built-with)
 - [How To Use](#how-to-use)
 - [About This Project](#about-this-project)
-- [Acknowledgements](#acknowledgements)
 - [Key Features](#key-features)
 - [Contact](#contact)
 
@@ -90,6 +89,7 @@ Flight Reservation App, kullanıcıların uçuş rezervasyonlarını yönetebile
 - **Swagger ve Redoc ile API Dokümantasyonu:** API yapısını detaylı inceleme ve test etme olanağı.
 - **PostgreSQL Desteği:** Production ortamında güçlü ve güvenilir veritabanı desteği.
 
+---
 
 - Project Swagger and Redoc Documentation Visual 
 <!-- ![screenshot](project_screenshot/Flight_App_1.gif) -->
@@ -146,12 +146,14 @@ Flight Reservation App, kullanıcıların uçuş rezervasyonlarını yönetebile
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- Djago Rest Framework
-- Swagger
-- Debug Toolbar
-- Logging
-- Redoc
+- [Django Rest Framework](https://www.django-rest-framework.org/)
+- [Swagger And Redoc](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
+- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul
+- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
+- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - for authentication 
 - PostgreSQL
+
+
 
 ## How To Use
 
@@ -250,14 +252,6 @@ Bu projede aşağıdaki teknik yaklaşımlar ve çözümler uygulanmıştır:
 - **API Dokümantasyonu:** Swagger ve Redoc ile kapsamlı API dokümantasyonu.
 - **Kullanıcı Yetkilendirme:** staff ve normal kullanıcı rollerine uygun yetkilendirme yapısı.
 
-
-
-## Acknowledgements
-- [Django Rest Framework](https://www.django-rest-framework.org/)
-- [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
-- [Swagger](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
-- [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul
-- [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - for authentication 
 
 
 ## Key Features
