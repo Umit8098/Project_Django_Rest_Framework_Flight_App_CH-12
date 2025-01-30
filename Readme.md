@@ -35,7 +35,7 @@
 
 ## API Documentation
 
-Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirsiniz:
+- Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirsiniz:
 
 - [Swagger Dokümantasyonu](https://umit8113.pythonanywhere.com/swagger/)
 <!-- ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png) -->
