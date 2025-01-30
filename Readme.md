@@ -146,13 +146,12 @@ Flight Reservation App, kullanıcıların uçuş rezervasyonlarını yönetebile
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [Django Rest Framework](https://www.django-rest-framework.org/)
+- [Django Rest Framework](https://www.django-rest-framework.org/) - Framework used to create REST APIs.
 - [Swagger And Redoc](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation) - Environment and document modul 
 - [Debug_Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/installation.html) - Debug Toolbar modul
 - [Logging](https://docs.djangoproject.com/en/5.1/topics/logging/) - System logging modul
 - [dj-rest-auth](https://dj-rest-auth.readthedocs.io/en/latest/) - for authentication 
 - PostgreSQL
-
 
 
 ## How To Use
@@ -169,11 +168,13 @@ Flight Reservation App, kullanıcıların uçuş rezervasyonlarını yönetebile
 
 ---
 
-- Çevrimiçi demo için: [Swagger](https://umit8113.pythonanywhere.com/swagger/) veya [Redoc](https://umit8113.pythonanywhere.com/redoc/) arayüzlerine göz atabilirsiniz.
+- For online demo: You can take a look at [Swagger](https://umit8113.pythonanywhere.com/swagger/) or [Redoc](https://umit8113.pythonanywhere.com/redoc/) interfaces.
 
-- requirements.txt dosyasındaki gerekli paketlerin kurulumu esnasında windows/macOS/Linux ortamları için paket farklılıklarını inceleyin. 
+- Examine the package differences for Windows/macOS/Linux environments during the installation of the required packages in the requirements.txt file. 
 
-- Uygun olan paketi yorumdan kurtararak kurulumu gerçekleştirin. 
+- Complete the installation by uncommenting the appropriate package.
+
+---
 
 ```bash
 # Clone this repository
@@ -218,8 +219,6 @@ DJANGO_LOG_LEVEL=INFO
 ```
 
 
-
-
 ## About This Project
 
 This project was developed to modernize flight booking processes and make flight planning easier for users. It aims to provide solutions for the following situations:
@@ -251,7 +250,6 @@ Bu projede aşağıdaki teknik yaklaşımlar ve çözümler uygulanmıştır:
 - **Performans Optimizasyonu:** PostgreSQL kullanımı ile büyük veri yönetimi.
 - **API Dokümantasyonu:** Swagger ve Redoc ile kapsamlı API dokümantasyonu.
 - **Kullanıcı Yetkilendirme:** staff ve normal kullanıcı rollerine uygun yetkilendirme yapısı.
-
 
 
 ## Key Features
