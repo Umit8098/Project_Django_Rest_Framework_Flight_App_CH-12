@@ -39,23 +39,24 @@
 Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirsiniz:
 
 - [Swagger Dokümantasyonu](https://umit8113.pythonanywhere.com/swagger/)
-- "Swagger Dokümantasyonu Görseli": API endpoint'lerini kolayca test etmenizi sağlayan bir arayüz.
 <!-- ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="400"/>
-➡ API endpoint'lerini kolayca test etmenizi sağlayan arayüz.
+➡ Interface that allows you to easily test API endpoints.
 
   
 - [RedocDokümantasyonu](https://umit8113.pythonanywhere.com/redoc/)
-- "Redoc Dokümantasyonu Görseli": API yapısını detaylı ve düzenli bir şekilde sunan bir dokümantasyon aracı.
 <!-- ![Redoc_Arayüzü](project_screenshot/Redoc_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Redoc_Dokümantasyonu_Görseli.png" alt="Redoc Arayüzü" width="400"/>
-➡ API yapısını detaylı ve düzenli bir şekilde sunan dokümantasyon aracı.
+➡ Documentation tool that presents the API structure in a detailed and organized way.
 
 
 <!-- - Bu dokümantasyonlar sayesinde API endpoint'lerini kolayca test edebilir ve yapılarını inceleyebilirsiniz. -->
+**Not:** You can access Swagger and Redoc documentation without any user login.
+
 **Not:** Swagger ve Redoc dokümantasyonlarına herhangi bir kullanıcı girişi yapmadan erişebilirsiniz.
 
-- Swagger ve Redoc dokümantasyonlarıyla birlikte, API'leri test etmek için Postman koleksiyonumuzu kullanabilirsiniz. [Flight Reservation API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-5c497d31-9dd6-44f2-930c-8f4337595920?action=share&creator=17531143)
+- Along with Swagger and Redoc documentation, you can use our Postman collection to test APIs.
+ [Flight Reservation API Postman Collection](https://umit-dev.postman.co/workspace/Team-Workspace~7e9925db-bf34-4ab9-802e-6deb333b7a46/collection/17531143-5c497d31-9dd6-44f2-930c-8f4337595920?action=share&creator=17531143)
 
 ## API Testing
 
