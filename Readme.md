@@ -42,12 +42,14 @@ Projenin detaylı API dokümantasyonlarına aşağıdaki linklerden ulaşabilirs
 - "Swagger Dokümantasyonu Görseli": API endpoint'lerini kolayca test etmenizi sağlayan bir arayüz.
 <!-- ![Swagger_Arayüzü](project_screenshot/Swagger_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Swagger_Dokümantasyonu_Görseli.png" alt="Swagger Arayüzü" width="400"/>
+➡ API endpoint'lerini kolayca test etmenizi sağlayan arayüz.
 
   
 - [RedocDokümantasyonu](https://umit8113.pythonanywhere.com/redoc/)
 - "Redoc Dokümantasyonu Görseli": API yapısını detaylı ve düzenli bir şekilde sunan bir dokümantasyon aracı.
 <!-- ![Redoc_Arayüzü](project_screenshot/Redoc_Dokümantasyonu_Görseli.png) -->
 <img src="project_screenshot/Redoc_Dokümantasyonu_Görseli.png" alt="Redoc Arayüzü" width="400"/>
+➡ API yapısını detaylı ve düzenli bir şekilde sunan dokümantasyon aracı.
 
 
 <!-- - Bu dokümantasyonlar sayesinde API endpoint'lerini kolayca test edebilir ve yapılarını inceleyebilirsiniz. -->
@@ -93,16 +95,17 @@ Flight Reservation App, kullanıcıların uçuş rezervasyonlarını yönetebile
 ➡ Interface that allows you to easily test API endpoints.
 
 ---
-- Flight app testing on Postman
-<!-- ![screenshot](project_screenshot/Flight_App_2.gif) -->
-<img src="project_screenshot/Flight_App_2.gif" alt="Flight app testing on Postman" width="400"/>
-➡ Flight booking test with Postman.
 
----
 - user/authentication app testing on Postman
 <!-- ![screenshot](project_screenshot/user_register.png) -->
 <img src="project_screenshot/user_register.png" alt="user/authentication app testing on Postman" width="400"/>
 ➡ User registration process screen.
+
+---
+- Flight app testing on Postman
+<!-- ![screenshot](project_screenshot/Flight_App_2.gif) -->
+<img src="project_screenshot/Flight_App_2.gif" alt="Flight app testing on Postman" width="400"/>
+➡ Flight booking test with Postman.
 
 ---
 - user/authentication app testing on Postman
