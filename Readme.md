@@ -42,10 +42,9 @@ and production-ready backend practices using Django REST Framework.
 ![Flight App gif](./project_screenshot/Flight_App_1.gif)
 
 
-## Table of Contents
+## Navigation
 
 - [Overview](#overview)
-- [Table of Contents](#table-of-contents)
 - [API Documentation](#api-documentation)
 - [Authorization \& Permissions](#authorization--permissions)
 - [Built With](#built-with)
