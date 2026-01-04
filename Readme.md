@@ -1,11 +1,20 @@
 <!-- Please update value in the {}  -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Django%20REST%20Framework-API-red" />
+  <img src="https://img.shields.io/badge/Auth-Role%20Based-blue" />
+  <img src="https://img.shields.io/badge/Database-PostgreSQL-informational" />
+  <img src="https://img.shields.io/badge/API%20Docs-Swagger%20%7C%20Redoc-green" />
+  <img src="https://img.shields.io/badge/Deployment-PythonAnywhere-purple" />
+</p>
 
 <h1 align="center">
 ✈️ Flight Reservation API <br/>
 Django REST Framework
 </h1>
 
-<p align="center">A role-based flight booking and reservation system built with Django REST Framework.</p>
+<p align="center">
+Role-based Flight Reservation REST API built with Django REST Framework.
+</p>
 
 <!-- <div align="center">
   <h3>
