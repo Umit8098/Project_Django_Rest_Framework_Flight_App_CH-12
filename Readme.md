@@ -30,6 +30,9 @@ while staff users can fully control flight and reservation data.
 The project demonstrates role-based authorization, RESTful API design,
 and production-ready backend practices using Django REST Framework.
 
+![Flight App gif](./project_screenshot/Flight_App_1.gif)
+
+---
 
 ## Table of Contents
 
@@ -43,6 +46,7 @@ and production-ready backend practices using Django REST Framework.
 - [Key Features](#key-features)
 - [Contact](#contact)
 
+---
 
 ## API Documentation
 
@@ -74,6 +78,7 @@ The application implements role-based access control:
 
 Permissions are enforced at the API level using Django REST Framework permission classes.
 
+---
 
 ## Built With
 
@@ -84,6 +89,7 @@ Permissions are enforced at the API level using Django REST Framework permission
 - Django Logging – Application-level logging
 - Django Debug Toolbar – Development debugging
 
+---
 
 ## How To Use
 
@@ -96,8 +102,6 @@ Permissions are enforced at the API level using Django REST Framework permission
 - When installing the required packages in the requirements.txt file, review the package differences for windows/macOS/Linux environments. 
 
 - Adjust database and environment settings based on your OS and environment.
-
----
 
 ```bash
 # Clone this repository
@@ -140,6 +144,7 @@ DJANGO_LOG_LEVEL=INFO
     $ python manage.py runserver
 ```
 
+---
 
 ## About This Project
 
@@ -153,6 +158,7 @@ It demonstrates:
 - PostgreSQL integration for scalable data handling
 - API documentation for third-party integrations
 
+---
 
 ## Key Features
 
