@@ -32,7 +32,6 @@ and production-ready backend practices using Django REST Framework.
 
 ![Flight App gif](./project_screenshot/Flight_App_1.gif)
 
----
 
 ## Table of Contents
 
@@ -46,7 +45,6 @@ and production-ready backend practices using Django REST Framework.
 - [Key Features](#key-features)
 - [Contact](#contact)
 
----
 
 ## API Documentation
 
@@ -78,7 +76,6 @@ The application implements role-based access control:
 
 Permissions are enforced at the API level using Django REST Framework permission classes.
 
----
 
 ## Built With
 
@@ -89,7 +86,6 @@ Permissions are enforced at the API level using Django REST Framework permission
 - Django Logging – Application-level logging
 - Django Debug Toolbar – Development debugging
 
----
 
 ## How To Use
 
@@ -144,7 +140,6 @@ DJANGO_LOG_LEVEL=INFO
     $ python manage.py runserver
 ```
 
----
 
 ## About This Project
 
@@ -158,7 +153,6 @@ It demonstrates:
 - PostgreSQL integration for scalable data handling
 - API documentation for third-party integrations
 
----
 
 ## Key Features
 
@@ -168,7 +162,6 @@ It demonstrates:
 - **User Authorization:** Registration, login, password change and reservation management.
 - **PostgreSQL Support:** High performance database in production environment.
 
----
 
 ## Contact
 
