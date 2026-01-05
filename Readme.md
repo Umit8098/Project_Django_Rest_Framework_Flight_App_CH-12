@@ -29,17 +29,7 @@ Role-based Flight Reservation REST API built with Django REST Framework.
   </h3>
 </div>
 
-## Overview
-
-Flight Reservation API is a backend-focused application that enables users
-to browse available flights, make reservations, and manage bookings,
-while staff users can fully control flight and reservation data.
-
-The project demonstrates role-based authorization, RESTful API design,
-and production-ready backend practices using Django REST Framework.
-
 ![Flight App gif](./project_screenshot/Flight_App_1.gif)
-
 
 ## Navigation
 
@@ -51,6 +41,15 @@ and production-ready backend practices using Django REST Framework.
 - [About This Project](#about-this-project)
 - [Key Features](#key-features)
 - [Contact](#contact)
+
+## Overview
+
+Flight Reservation API is a backend-focused application that enables users
+to browse available flights, make reservations, and manage bookings,
+while staff users can fully control flight and reservation data.
+
+The project demonstrates role-based authorization, RESTful API design,
+and production-ready backend practices using Django REST Framework.
 
 
 ## API Documentation
