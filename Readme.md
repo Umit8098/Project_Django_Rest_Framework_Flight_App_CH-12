@@ -16,19 +16,18 @@ Django REST Framework
 Role-based Flight Reservation REST API built with Django REST Framework.
 </p>
 
-<!-- <div align="center">
+<div align="center">
   <h3>
-    <a href="https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12">
-      Demo
+    <a href="https://umit8113.pythonanywhere.com/">
+      🖥️ Live Demo
     </a>
      | 
-    <a href="https://umit8113.pythonanywhere.com/">
-      Project
+    <a href="https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12.git">
+      📂 Project
     </a>
  
   </h3>
-</div> -->
-
+</div>
 
 ## Overview
 
