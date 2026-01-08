@@ -23,7 +23,7 @@ Role-based Flight Reservation REST API built with Django REST Framework.
     </a>
      | 
     <a href="https://github.com/Umit8098/Project_Django_Rest_Framework_Flight_App_CH-12.git">
-      📂 Project
+      📂 Repository
     </a>
  
   </h3>
